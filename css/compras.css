@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    font-family: Tahoma;
+}
+
+header{
+    width:100%;
+    background-color: brown;
+    color: #fff;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.titulo{
+    font-size: 35px;
+    font-weight: 700;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+}
+
+.menu{
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.menu-item{
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+    margin: 20px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.menu-item:hover{
+    background-color: lightcoral;
+}
+
